@@ -1,0 +1,70 @@
+body {
+    background-color: #374142 ;
+    
+}
+
+.about {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'MeowScript';
+    src: url('../fonts/MeowScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-font1 {
+    font-family: 'MeowScript', cursive, sans-serif;
+    font-size: 30px;
+    word-spacing:0.6em;
+    color: #89b98b;
+    margin-top: 6%;
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('../fonts/SpaceMono-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-font2 {
+    font-family: 'SpaceMono', sans-serif;
+    font-size: 20px;
+    color: #89b98bd3 ;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+}
+
+@font-face {
+    font-family: 'StylishElegance';
+    src: url(../fonts/BodoniModa-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-font3 {
+    font-family: 'StylishElegance', sans-serif;
+     color: rgba(52, 151, 60, 0.5);
+    font-size: 60px;
+}
+
+.reserve {
+    width: 100%;
+    max-width: 900px ;
+    background: linear-gradient( #89b98b,#93dd96,#374142);
+    border-radius: 16px;
+    margin: 110px auto 0;
+    padding: 30px 25px ;
+    
+}
+
+.custom-font4 {
+     font-family: 'StylishElegance', sans-serif;
+     text-align: center;
+    color: rgb(20, 80, 60);
+    word-spacing: 0.6em;
+    font-size: 45px;
+}
